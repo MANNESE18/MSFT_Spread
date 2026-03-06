@@ -1,6 +1,6 @@
 # MSFT Volatility Analyzer
 
-A Python-based data utility designed to ingest historical Microsoft (MSFT) stock data, store it in a relational database, and calculate market volatility through price spread analysis.
+A Python-based data utility designed to take in historical Microsoft (MSFT) stock data, store it in a relational database, and calculate market volatility through price spread analysis.
 
 ## Project Goal
 The primary objective of this script is to transform raw CSV stock data into actionable insights by identifying the most volatile trading days in Microsoft's history. By calculating the percentage difference between daily highs and lows, the tool provides a snapshot of historical intraday price swings, useful for risk assessment or algorithmic backtesting.
