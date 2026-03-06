@@ -29,9 +29,7 @@ The primary objective of this script is to transform raw CSV stock data into act
 
 * **Calculated Fields via Real-Time Processing**: The spread calculation is performed during the transition from CSV to SQL:
 
-spread = (high−low)/low
- 
-This ensures the database stores pre-computed analytical values rather than just raw data.
+$$spread = \frac{high − low}{low}$$
 
 * **Professional CLI Formatting**: The output uses f-string alignment (:<20) and percentage formatting (:.2%) to create a clean, readable terminal dashboard that mirrors a professional financial report.
 
